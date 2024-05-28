@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color: hsl(0, 0%, 8%);
+}
+.container {
+    background-color: hsl(0, 0%, 12%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    margin-top: 50px;
+    border-radius: 20px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 250;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+}
+.Jimg {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin-top: 50px;
+}
+h3,p,li {
+    color: hsl(0, 0%, 100%);
+}
+h4 {
+    color: hsl(75, 94%, 57%);
+}
+.menu {
+    display: flex;
+    flex-direction: column;
+    border: none;
+    gap: 10px;
+    margin: 10px 0px;    
+}
+.menu div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:hsl(0, 0%, 20%) ;
+    border-radius: 10px;
+    color:  hsl(0, 0%, 100%);
+    width: 250px;
+    height: 30px;
+    text-align: center;
+    padding: 5px;
+}
+.menu div:hover {
+    border: none;
+    background-color: hsl(75, 94%, 57%); ;
+}
